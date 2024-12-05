@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">My Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <div class="content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Katrina Serzo</p>
+            <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+        <div class="heartbeatloader">
+            <svg class="svgdraw" width="100%" height="100%" viewBox="0 0 150 400" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    class="path"
+                    d="M 0 200 l 40 0 l 5 -40 l 5 40 l 10 0 l 5 15 l 10 -140 l 10 220 l 5 -95 l 10 0 l 5 20 l 5 -20 l 30 0"
+                    fill="transparent"
+                    stroke-width="4"    
+                    stroke="black"
+                ></path>
+            </svg>
+            <div class="innercircle"></div>
+            <div class="outercircle"></div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I’m Katrina I. Serzo, a 20-year-old girl born in Caloocan City and currently living in Brgy. 
+            Pasong Tamo, Quezon City. I’m a creative and bubbly person who enjoys exploring new ideas and 
+            expressing myself through my projects.
+        
+            I enjoy designing websites, learning new tech skills, and spending time with family and friends. 
+            In my free time, I love watching feel-good movies, listening to music, and indulging in a sweet 
+            treat like contton candies.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <a href="https://drive.google.com/drive/folders/1LqbrTDjBEeQe5rgBa2j0HRaLxC7n9Bl0?usp=sharing" target="_blank">
+                    <img src="calcu.jpg" alt="Project 1" class="portfolio-image">
+                    <p>Calculator</p>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="https://drive.google.com/drive/folders/1m6pOsJu2S3Cb_e0lNDeHQrF8LgKf2UE6?usp=sharing" target="_blank">
+                    <img src="Online_ordering_systems.png" alt="Project 2" class="portfolio-image">
+                    <p></p>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="https://drive.google.com/drive/folders/1OP6bWQ-NOn45vK-LWCl1w-AIjET-Zahs?usp=sharing" target="_blank">
+                    <img src="how-payroll-systems-work.webp" alt="Project 3" class="portfolio-image">
+                    <p></p>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="https://drive.google.com/drive/folders/1h_3vlt1bdBNUx9GSKlmf4Rn2LmRCLA8h?usp=sharing" target="_blank">
+                    <img src="database-1024x703.webp" alt="Project 4" class="portfolio-image">
+                    <p></p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <p>Connect with me:</p>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/kathgabrielle.serzo" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/strawb.elle_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
